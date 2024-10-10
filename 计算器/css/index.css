@@ -1,0 +1,44 @@
+* {
+    margin: 0; padding: 0;
+}
+  /*设置计算器外部大小*/
+.big {
+    height: 360px;
+    width: 260px;
+    border: 1px solid #973d3d;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+/*设置计算器显示屏大小*/
+.zhong {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border-bottom: 0.1px solid #973d3d;
+}
+.zhong input {
+    position: relative;
+    height: 100px;
+    width: 255px;
+    left: 5px;
+    top:30px;
+    font-size: 25px;
+    /*样式去除*/
+    border: 0px; /*去除未选中状态边框*/
+    outline: none; /* 去除选中状态边框*/
+    background: none;
+}
+.xiaoshu input {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    left: 2.5px;
+    top: 1.5px;
+    margin-top: 1px;
+}
+#long {
+    width: 255px;
+    border: 0;
+    background-color: rgb(121, 121, 170);
+}
